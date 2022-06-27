@@ -87,7 +87,7 @@ int main() {
 
 		//建立渲染对象 
 		shader.use();
-		
+
 		//光源属性
 		//dirLightsd
 		shader.setVec3("dirLight.direction", -0.2f, -1.0f, -0.3f);
